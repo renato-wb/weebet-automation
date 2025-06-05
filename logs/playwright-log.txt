@@ -1,0 +1,125 @@
+{"level":30,"time":"2025-06-05T19:45:23.884Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Listening on 127.0.0.1:39621"}
+(node:282150) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-05T19:45:23.910Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-05T19:45:24.278Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-05T19:45:24.279Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-05T19:45:24.279Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-05T19:45:24.286Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-05T19:45:24.286Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"permissions\":[\"geolocation\"],\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-06-05T19:45:24.286Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-05T19:45:24.286Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Trace file: "}
+{"level":30,"time":"2025-06-05T19:45:24.294Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active context"}
+{"level":30,"time":"2025-06-05T19:45:24.294Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-05T19:45:24.299Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-05T19:45:24.299Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-05T19:45:24.430Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-05T19:45:24.430Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active page"}
+{"level":30,"time":"2025-06-05T19:45:26.010Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-05T19:45:26.015Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:26.015Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with .menu-conta .botao-entrar in page."}
+{"level":30,"time":"2025-06-05T19:45:26.576Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:26.583Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:26.584Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.label-doLogin span in page."}
+{"level":30,"time":"2025-06-05T19:45:26.600Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:26.612Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:26.612Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.label-doLogin span in page."}
+{"level":30,"time":"2025-06-05T19:45:26.671Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Retrieved text for element css=.label-doLogin span containing Faça login para acessar suas apostas e jogos favoritos!"}
+{"level":30,"time":"2025-06-05T19:45:26.671Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:26.678Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:26.678Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=label:nth-child(2) > span.label-login in page."}
+{"level":30,"time":"2025-06-05T19:45:27.216Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:27.225Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:27.225Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2025-06-05T19:45:27.466Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:27.473Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:27.473Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-06-05T19:45:27.572Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:27.578Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:27.578Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.button-entrar in page."}
+{"level":30,"time":"2025-06-05T19:45:27.646Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:27.655Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-06-05T19:45:27.655Z","pid":282150,"hostname":"lti-Latitude-3540","Take screenshot with options: ":{"path":"/home/renatocorrea/Documentos/ws/weebet-automation/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-06-05T19:45:27.859Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-06-05T19:45:27.863Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.865Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.866Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.868Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.870Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.877Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.882Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.884Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.890Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active context"}
+{"level":30,"time":"2025-06-05T19:45:27.891Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changing current active page: page=b381aa24-4ecb-4573-8d46-80bb40ad87ad"}
+{"level":30,"time":"2025-06-05T19:45:27.891Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active page"}
+{"level":30,"time":"2025-06-05T19:45:27.900Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-05T19:45:27.913Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Removed page=6e1cb337-1cd3-4086-8410-f2bde554dbe4 from context=a34321b8-fc53-472f-87f8-60fc682f1570 page stack"}
+{"level":30,"time":"2025-06-05T19:45:27.954Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-05T19:45:27.958Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.958Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:27.963Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-06-05T19:45:27.963Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-06-05T19:45:27.971Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-05T19:45:27.971Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"permissions\":[\"geolocation\"],\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2025-06-05T19:45:27.971Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-05T19:45:27.971Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Trace file: "}
+{"level":30,"time":"2025-06-05T19:45:27.977Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active context"}
+{"level":30,"time":"2025-06-05T19:45:27.977Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-05T19:45:27.982Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-05T19:45:27.982Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-05T19:45:28.049Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-05T19:45:28.049Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active page"}
+{"level":30,"time":"2025-06-05T19:45:29.143Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-05T19:45:29.147Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:29.147Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with .menu-conta .botao-entrar in page."}
+{"level":30,"time":"2025-06-05T19:45:30.063Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:30.069Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:30.069Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.label-doLogin span in page."}
+{"level":30,"time":"2025-06-05T19:45:30.077Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:30.084Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:30.085Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.label-doLogin span in page."}
+{"level":30,"time":"2025-06-05T19:45:30.144Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Retrieved text for element css=.label-doLogin span containing Faça login para acessar suas apostas e jogos favoritos!"}
+{"level":30,"time":"2025-06-05T19:45:30.144Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:30.149Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:30.149Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=label:nth-child(1) > span.label-login in page."}
+{"level":30,"time":"2025-06-05T19:45:30.727Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:30.734Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:30.734Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2025-06-05T19:45:30.995Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:31.001Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:31.001Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-06-05T19:45:31.118Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method typeText"}
+{"level":30,"time":"2025-06-05T19:45:31.129Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-05T19:45:31.129Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.button-entrar in page."}
+{"level":30,"time":"2025-06-05T19:45:31.203Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method click"}
+{"level":30,"time":"2025-06-05T19:45:31.212Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:31.212Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with id=navbarDropdown in page."}
+{"level":30,"time":"2025-06-05T19:45:32.028Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:32.031Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:32.031Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.deposit-shortcut a in page."}
+{"level":30,"time":"2025-06-05T19:45:32.038Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-05T19:45:32.045Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:32.045Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Strict mode is enabled, find Locator with css=.deposit-shortcut a in page."}
+{"level":30,"time":"2025-06-05T19:45:32.076Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Retrieved text for element css=.deposit-shortcut a containing DEPOSITAR"}
+{"level":30,"time":"2025-06-05T19:45:32.076Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-05T19:45:32.082Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-06-05T19:45:32.083Z","pid":282150,"hostname":"lti-Latitude-3540","Take screenshot with options: ":{"path":"/home/renatocorrea/Documentos/ws/weebet-automation/logs/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-06-05T19:45:32.273Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-06-05T19:45:32.284Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.298Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.300Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.302Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.305Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.308Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.310Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.312Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.314Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active context"}
+{"level":30,"time":"2025-06-05T19:45:32.314Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changing current active page: page=2848051c-e315-40cf-b8a9-ad5e70f48837"}
+{"level":30,"time":"2025-06-05T19:45:32.314Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Changed active page"}
+{"level":30,"time":"2025-06-05T19:45:32.331Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-05T19:45:32.344Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Removed page=77b5c93b-c535-4d03-8ca9-5528c8c1da09 from context=c99d1887-d64e-4e9c-b34b-535e42a7f9d7 page stack"}
+{"level":30,"time":"2025-06-05T19:45:32.371Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-05T19:45:32.376Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.376Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-05T19:45:32.399Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-05T19:45:32.493Z","pid":282150,"hostname":"lti-Latitude-3540","msg":"End of node method closeAllBrowsers"}
