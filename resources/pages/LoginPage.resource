@@ -1,49 +1,53 @@
 *** Settings ***
 
-Documentation        Elementos e ações da página de login
+Documentation        Login Page Elements
 
 Resource        HomePage.resource
 
 
 *** Variables ***
-${title_login_modal}    css=.label-doLogin span
+${titleLoginModal}      css=.label-doLogin span
+${textLoginModal}       Faça login para acessar suas apostas e jogos favoritos!
 ${inputLogin}           id=username
-${inputSenha}           id=password
-${btnEntrar}            css=.button-entrar
+${inputPassword}        id=password
+${btnLogin}             css=.button-entrar
 ${btnEmail}             css=label:nth-child(2) > span.label-login
-${btnTelefone}          css=label:nth-child(1) > span.label-login
-${btnMenuPerfil}        id=navbarDropdown
-${btnDepositar}         css=.deposit-shortcut a
+${btnPhone}             css=label:nth-child(1) > span.label-login
+${btnMenuProfile}       id=navbarDropdown
+${btnDeposit}           css=.deposit-shortcut a
+${textError}            css=.text-left .invalid-feedback
   
 
 
 *** Keywords ***
 Validate login modal
-    [Arguments]    ${text}
-      
-    Wait For Elements State    ${title_login_modal}        visible    5
 
-    Get Text    ${title_login_modal}    equal     ${text}
+    Wait For Elements State    ${titleLoginModal}        visible    5
+    Get Text    ${titleLoginModal}    equal     ${textLoginModal}
 
 Submit login with email 
     [Arguments]    ${user}
 
     Click        ${btnEmail}
     Type Text    ${inputLogin}   ${user}[email] 
-    Type Text    ${inputSenha}   ${user}[senha]
-
-    Click    ${btnEntrar} 
+    Type Text    ${inputPassword}   ${user}[password]
+    Click    ${btnLogin} 
 
 Submit login with telefone 
     [Arguments]    ${user}
 
-    Click        ${btnTelefone}
-    Type Text    ${inputLogin}   ${user}[telefone] 
-    Type Text    ${inputSenha}   ${user}[senha]
+    Click        ${btnPhone}
+    Type Text    ${inputLogin}   ${user}[phone] 
+    Type Text    ${inputPassword}   ${user}[password]
+    Click    ${btnLogin}
+         
+Validate login success
+    Wait For Elements State    ${btnMenuProfile}    visible    5
+    Wait For Elements State    ${btnDeposit}    visible    5
+    Get Text    ${btnDeposit}    equal     DEPOSITAR  
 
-    Click    ${btnEntrar}
-
-    Wait For Elements State    ${btnMenuPerfil}    visible    5
-    Wait For Elements State    ${btnDepositar}    visible    5
-    Get Text    ${btnDepositar}    equal     DEPOSITAR       
+Validate phone error
+    [Arguments]    ${text}
+    
+    Wait For Elements State    ${textError}    visible    2    message=${text}
     

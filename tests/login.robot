@@ -1,34 +1,66 @@
 *** Settings ***
 
-Documentation        Cenários de login de usuário
+Documentation        Login Test Cases
 
-Resource        ../resources/pages/HomePage.resource
+Resource    ../resources/pages/HomePage.resource
 Resource    ../resources/pages/LoginPage.resource
 
 
 Test Setup           Start session
-Test Teardown        Take Screenshot
+#Test Teardown        Take Screenshot
 
 *** Test Cases ***
-Deve realizar login com sucesso utilizando email
+TC-Login-01
+    [Documentation]    Login success with email
     ${user}    Create Dictionary    
     ...    email=qa@wee.bet
-    ...    senha=Admin@123
+    ...    password=Admin@123
       
     Click login button
-    
-    Validate login modal    Faça login para acessar suas apostas e jogos favoritos!
-
+    Validate login modal
     Submit login with email      ${user}
+    Validate login success
 
-Deve realizar login com sucesso utilizando telefone
+TC-Login-07
+    [Documentation]    Login success with phone number
     ${user}    Create Dictionary    
-    ...    telefone=87932912890
-    ...    senha=Admin@123
+    ...    phone=87932912890
+    ...    password=Admin@123
       
-    Click login button
-    
-    Validate login modal    Faça login para acessar suas apostas e jogos favoritos!
+    Click login button 
+    Validate login modal
+    Submit login with telefone     ${user} 
+    Validate login success   
 
-    Submit login with telefone     ${user}    
+TC-Login-08
+    [Documentation]    Login with invalid phone number 
+    ${user}    Create Dictionary    
+    ...    phone=87932912899
+    ...    password=Admin@123
+      
+    Click login button 
+    Validate login modal
+    Submit login with telefone     ${user} 
+    #Falta só funcão de validar alert
 
+TC-Login-09
+    [Documentation]    Login with empty phone number and correct password
+    ${user}    Create Dictionary    
+    ...    phone=${EMPTY}
+    ...    password=Admin@123
+      
+    Click login button 
+    Validate login modal
+    Submit login with telefone     ${user} 
+    Validate phone error    Campo obrigatório.
+
+TC-Login-10
+    [Documentation]    Login with correct phone number and empty password
+    ${user}    Create Dictionary    
+    ...    phone=87932912890
+    ...    password=${EMPTY}
+      
+    Click login button 
+    Validate login modal
+    Submit login with telefone     ${user} 
+    Validate phone error    Senha obrigatório.
