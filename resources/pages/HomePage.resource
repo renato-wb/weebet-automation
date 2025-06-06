@@ -1,20 +1,19 @@
 *** Settings ***
 
-Documentation        Ações e elementos da página home
+Documentation        Home Page Elements
 
 Resource        ../base.resource
 
 *** Variables ***
 
-${btnRegister}    .menu-conta .btn-custom
-${btnLogin}       .menu-conta .botao-entrar
+${btnRegister}    css=.menu-conta .btn-custom
+${btnLoginHome}       css=.menu-conta .botao-entrar
 
 
 *** Keywords ***
-
 Click register button
     Click    ${btnRegister}
 
 Click login button
-    Click    ${btnLogin}
+    Click    ${btnLoginHome}
     
