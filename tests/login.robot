@@ -33,7 +33,7 @@ TC-Login-07
     Validate login success   
 
 TC-Login-08
-    [Documentation]    Login with invalid phone number 
+    [Documentation]    Login with invalid phone number and correct password
     ${user}    Create Dictionary    
     ...    phone=87932912899
     ...    password=Admin@123
@@ -41,9 +41,20 @@ TC-Login-08
     Click login button 
     Validate login modal
     Submit login with telefone     ${user} 
-    #Falta só funcão de validar alert
+    Validate alert error
 
 TC-Login-09
+    [Documentation]    Login with correct phone number and invalid password
+    ${user}    Create Dictionary    
+    ...    phone=87932912890
+    ...    password=Admin@12
+      
+    Click login button 
+    Validate login modal
+    Submit login with telefone     ${user} 
+    Validate alert error
+
+TC-Login-10
     [Documentation]    Login with empty phone number and correct password
     ${user}    Create Dictionary    
     ...    phone=${EMPTY}
@@ -54,7 +65,7 @@ TC-Login-09
     Submit login with telefone     ${user} 
     Validate phone error    Campo obrigatório.
 
-TC-Login-10
+TC-Login-11
     [Documentation]    Login with correct phone number and empty password
     ${user}    Create Dictionary    
     ...    phone=87932912890

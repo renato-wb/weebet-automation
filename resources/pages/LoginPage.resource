@@ -16,7 +16,7 @@ ${btnPhone}             css=label:nth-child(1) > span.label-login
 ${btnMenuProfile}       id=navbarDropdown
 ${btnDeposit}           css=.deposit-shortcut a
 ${textError}            css=.text-left .invalid-feedback
-  
+${alertPopup}           div[role="alert"]
 
 
 *** Keywords ***
@@ -51,3 +51,8 @@ Validate phone error
     
     Wait For Elements State    ${textError}    visible    2    message=${text}
     
+Validate alert error
+
+    Wait For Elements State    ${alertPopup}    visible    timeout=5s
+    ${mensagem}=    Get Text    ${alertPopup}
+    Should Contain    ${mensagem}    Usuário ou Senha inválido.
