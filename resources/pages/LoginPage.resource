@@ -46,13 +46,12 @@ Validate login success
     Wait For Elements State    ${btnDeposit}    visible    5
     Get Text    ${btnDeposit}    equal     DEPOSITAR  
 
-Validate phone error
+Validate message error
     [Arguments]    ${text}
     
-    Wait For Elements State    ${textError}    visible    2    message=${text}
+    Wait For Elements State    ${textError}    visible    2    ${text}
     
 Validate alert error
 
-    Wait For Elements State    ${alertPopup}    visible    timeout=5s
-    ${mensagem}=    Get Text    ${alertPopup}
-    Should Contain    ${mensagem}    Usuário ou Senha inválido.
+    Wait For Elements State    ${alertPopup}    visible    5s
+    Get Text    ${alertPopup}    equal    Usuário ou Senha inválido.
